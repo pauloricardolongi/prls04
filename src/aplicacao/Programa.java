@@ -28,7 +28,7 @@ public class Programa {
 		Date dataNascimento = sdf.parse(sc.next());
 		
 		Cliente cliente = new Cliente(nome, email, dataNascimento);
-        System.out.println("Entre com os dados do Pedido:");
+        System.out.println("Entre com STATUS do pedido:");
         System.out.print("Status");
         StatusPedido status= StatusPedido.valueOf(sc.next());
         
